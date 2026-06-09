@@ -1,5 +1,6 @@
-import 'react-native-url-polyfill/auto';
+
 import React from 'react';
+import { registerRootComponent } from 'expo'; // 1. Add this import at the top of App.js
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -85,3 +86,5 @@ export default function App() {
     </RecipeProvider>
   );
 }
+
+registerRootComponent(App);
