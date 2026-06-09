@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Foodie App",
+    "slug": "foodie-app",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark"
+  }
+}

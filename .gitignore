@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+assets/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+dist/
+web-build/
+.env
